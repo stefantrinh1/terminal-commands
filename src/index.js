@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ContextProvider, store } from './components/context/store';
+import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from 'theme-ui';
+import { theme } from './theme/theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <ContextProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </ContextProvider>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

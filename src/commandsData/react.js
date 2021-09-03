@@ -1,7 +1,9 @@
+import react from '../assets/logos/reactlogo.png';
+
 export default {
   name: 'react',
   displayName: 'React JS',
-  logoUrl: '',
+  logoUrl: react,
   commands: [
     {
       commandName: 'Create React App Starter',
@@ -16,4 +18,4 @@ export default {
         'Create A New Single Page Application In the current directory you are in.',
     },
   ],
-}
+};

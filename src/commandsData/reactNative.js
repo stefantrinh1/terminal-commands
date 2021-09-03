@@ -1,7 +1,9 @@
+import logo from '../assets/logos/reactnativelogo.png';
+
 export default {
-  name: 'reactNative',
+  name: 'react-native',
   displayName: 'React Native',
-  logoUrl: '',
+  logoUrl: logo,
   commands: [
     {
       commandName: 'Install The React Native Cli using NPM',
@@ -38,4 +40,4 @@ export default {
       description: 'Starts the Native App',
     },
   ],
-}
+};

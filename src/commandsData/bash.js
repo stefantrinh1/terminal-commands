@@ -1,7 +1,9 @@
+import logo from '../assets/logos/bashlogo.png';
+
 export default {
   name: 'bash',
   displayName: 'Bash',
-  logoUrl: '',
+  logoUrl: logo,
   commands: [
     {
       commandName: 'Change Directory',
@@ -94,4 +96,4 @@ export default {
         'Lists all the folder and file permissions in the current directory',
     },
   ],
-}
+};
