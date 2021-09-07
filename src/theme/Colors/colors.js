@@ -1,14 +1,8 @@
-import springColors from './springColors';
-import winterColors from './winterColors';
-import summerColors from './summerColors';
-import autumnColors from './autumnColors';
-
-export default {
+const colors = {
   initialColorModeName: 'summer',
   colors: {
     text: '#000',
     background: '#fff',
-
     textOnPrimary: '#fdfdfd',
     primary1: '#015847',
     primary2: '#5c9890',
@@ -20,11 +14,7 @@ export default {
     light: '#fdfdfd',
     dark: '#202020',
     muted: '#f6f6f6',
-    modes: {
-      ...winterColors,
-      ...springColors,
-      ...summerColors,
-      ...autumnColors,
-    },
   },
 };
+
+export default colors;

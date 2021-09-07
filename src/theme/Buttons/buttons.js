@@ -1,4 +1,4 @@
-export default {
+const buttons = {
   buttons: {
     primary: {
       display: 'flex',
@@ -43,3 +43,4 @@ export default {
     },
   },
 };
+export default buttons;

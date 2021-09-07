@@ -1,4 +1,4 @@
-export default {
+const fontStyles = {
   fonts: {
     heading: 'Roboto, sans-serif',
     subheading: 'Roboto, sans-serif',
@@ -31,3 +31,5 @@ export default {
     heading: 1.125,
   },
 };
+
+export default fontStyles;

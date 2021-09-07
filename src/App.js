@@ -6,10 +6,7 @@ import React, { useEffect } from 'react';
 function App() {
   return (
     <Box sx={styles.container}>
-      {/* <Layout> */}
       <Routes />
-      {/* </Layout> */}
-      {/* global components can go here  that are not route specific*/}
     </Box>
   );
 }

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ContextProvider, store } from './components/context/store';
+import { ContextProvider } from './components/context/store';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'theme-ui';
 import { theme } from './theme/theme';
