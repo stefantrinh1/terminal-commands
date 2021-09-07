@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import { Button, Box } from 'theme-ui';
 import { FaCopy } from 'react-icons/fa';
-import slugify from 'slugify';
 
 export default function CopyButton(props) {
   const [popUp, setPopUp] = useState(false);

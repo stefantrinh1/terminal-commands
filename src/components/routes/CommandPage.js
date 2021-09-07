@@ -1,6 +1,5 @@
 /** @jsxImportSource theme-ui */
 
-import React from 'react';
 import { Box, Text, Heading, Image } from 'theme-ui';
 import CopyButton from '../CopyButton';
 import slugify from 'slugify';

@@ -2,13 +2,9 @@ import React from 'react';
 import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom';
 import { Box, Text, Heading, Image } from 'theme-ui';
-import { useThemeUI } from 'theme-ui';
 import allCommands from '../../../commandsData/allCommands';
 
 const Homepage = () => {
-  const context = useThemeUI();
-  const { theme, components, colorMode, setColorMode } = context;
-
   return (
     <Box sx={styles.container} as='main'>
       <Box sx={styles.headingContainer}>

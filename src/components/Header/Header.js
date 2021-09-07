@@ -1,17 +1,13 @@
 /** @jsxImportSource theme-ui */
 
-import { Box, Image, Text, Heading, Link as ExternalLink } from 'theme-ui';
+import { Box, Text, Heading, Link as ExternalLink } from 'theme-ui';
 import { Link } from 'react-router-dom';
 import allCommands from '../../commandsData/allCommands';
 import { AiOutlinePullRequest, AiFillGithub } from 'react-icons/ai';
 import { GoPerson } from 'react-icons/go';
 import { FiArrowRightCircle } from 'react-icons/fi';
 
-export default function Header(props) {
-  // sets state to scrolled if the user is not at the top of the page
-
-  console.log(allCommands);
-
+export default function Header() {
   return (
     <Box sx={{ ...styles.container }}>
       <Box sx={styles.headingContainer}>
