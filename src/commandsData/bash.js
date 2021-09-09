@@ -1,6 +1,6 @@
 import logo from '../assets/logos/bashlogo.png';
 
-const bash = {
+const command = {
   name: 'bash',
   displayName: 'Bash',
   logoUrl: logo,
@@ -100,4 +100,4 @@ const bash = {
   ],
 };
 
-export default bash;
+export default command;
