@@ -1,6 +1,6 @@
 import logo from '../assets/logos/homebrewlogo.png';
 
-const homebrewCommands = {
+const command = {
   name: 'homebrew',
   displayName: 'Homebrew',
   logoUrl: logo,
@@ -64,4 +64,4 @@ const homebrewCommands = {
   ],
 };
 
-export default homebrewCommands;
+export default command;

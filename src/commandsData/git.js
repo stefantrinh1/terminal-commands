@@ -1,6 +1,6 @@
 import logo from '../assets/logos/gitlogo.png';
 
-const git = {
+const command = {
   name: 'git',
   displayName: 'Git',
   logoUrl: logo,
@@ -168,4 +168,4 @@ const git = {
   ],
 };
 
-export default git;
+export default command;
