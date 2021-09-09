@@ -23,6 +23,7 @@ const Homepage = () => {
             href='https://github.com/stefantrinh1/terminal-commands'
             alt='github'
             target='_blank'
+            rel='noreferrer'
           >
             Github
           </a>
@@ -68,7 +69,6 @@ const styles = {
   boxes: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'flex-start',
     justifyContent: 'flex-start',
     width: '100%',
     a: {

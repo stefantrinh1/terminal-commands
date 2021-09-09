@@ -1,4 +1,4 @@
-export default {
+const globalRootStyles = {
   styles: {
     root: {
       fontFamily: 'body',
@@ -59,3 +59,5 @@ export default {
     },
   },
 };
+
+export default globalRootStyles;

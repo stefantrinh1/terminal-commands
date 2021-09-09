@@ -4,7 +4,7 @@ import { Box, Text, Heading, Image } from 'theme-ui';
 import CopyButton from '../CopyButton';
 import slugify from 'slugify';
 export default function CommandPage({ data }) {
-  const { displayName, commands, name, logoUrl, description } = data;
+  const { displayName, commands, logoUrl, description } = data;
 
   const renderCommands = () => {
     return commands.map((commandRow) => {

@@ -1,6 +1,6 @@
 import initialState from './initialState';
 
-export default (state, action) => {
+const reducer = (state, action) => {
   switch (action.type) {
     // ============================
     // ==== Fetching Plants =====
@@ -242,3 +242,5 @@ export default (state, action) => {
       throw new Error();
   }
 };
+
+export default reducer;

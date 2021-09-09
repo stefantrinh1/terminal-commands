@@ -1,4 +1,4 @@
-export default {
+const initialState = {
   // get
   loading: false,
   searchQuery: '',
@@ -34,3 +34,5 @@ export default {
   alertModalOpen: false,
   alertModalMessage: '',
 };
+
+export default initialState;
