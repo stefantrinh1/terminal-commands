@@ -1,6 +1,6 @@
 import react from '../assets/logos/reactlogo.png';
 
-export default {
+const react {
   name: 'react',
   displayName: 'React JS',
   logoUrl: react,
@@ -21,3 +21,5 @@ export default {
     },
   ],
 };
+
+export default react

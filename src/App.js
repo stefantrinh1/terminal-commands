@@ -1,7 +1,7 @@
+import React from 'react';
 import './App.css';
 import Routes from './components/routes/Routes';
-import { Box, useThemeUI } from 'theme-ui';
-import React, { useEffect } from 'react';
+import { Box } from 'theme-ui';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import logo from '../assets/logos/reactnativelogo.png';
 
-export default {
+const reactNative = {
   name: 'react-native',
   displayName: 'React Native',
   logoUrl: logo,
@@ -43,3 +43,5 @@ export default {
     },
   ],
 };
+
+export default reactNative;

@@ -1,1 +1,3 @@
-export default {}
+const vscodeShortcuts = {};
+
+export default vscodeShortcuts;
