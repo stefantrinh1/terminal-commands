@@ -1,9 +1,9 @@
-import react from '../assets/logos/reactlogo.png';
+import logo from '../assets/logos/reactlogo.png';
 
-const reactCommands = {
+const command = {
   name: 'react',
   displayName: 'React JS',
-  logoUrl: react,
+  logoUrl: logo,
   description:
     'React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.',
   commands: [
@@ -22,4 +22,4 @@ const reactCommands = {
   ],
 };
 
-export default reactCommands;
+export default command;

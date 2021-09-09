@@ -1,6 +1,6 @@
 import logo from '../assets/logos/npmlogo.png';
 
-const npm = {
+const command = {
   name: 'npm',
   displayName: 'NPM',
   logoUrl: logo,
@@ -91,4 +91,4 @@ const npm = {
     },
   ],
 };
-export default npm;
+export default command;
