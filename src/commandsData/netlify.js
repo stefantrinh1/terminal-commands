@@ -1,4 +1,4 @@
-import logo from '../assets/logos/netlifylogo.png';
+import logo from '../assets/logos/netlifylogo.png'
 
 const command = {
   name: 'netlify',
@@ -34,6 +34,11 @@ const command = {
       description: 'Pushes a Live Development Server Project To A Live Url',
     },
     {
+      commandName: 'Kill Live Development Server',
+      command: 'npx kill-port 8000',
+      description: 'How to kill the server on the port created by netlify',
+    },
+    {
       commandName: 'Build Netlify Site Locally',
       command: 'netlify build',
       description:
@@ -66,6 +71,6 @@ const command = {
       description: 'Switches To Chosen Netlify Account',
     },
   ],
-};
+}
 
-export default command;
+export default command
