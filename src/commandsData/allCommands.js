@@ -7,6 +7,7 @@ import homebrew from './homebrew';
 import yarn from './yarn';
 import gatsby from './gatsby';
 import netlify from './netlify';
+import awsAmplify from './awsAmplify';
 
 const allCommands = {
   git,
@@ -18,6 +19,7 @@ const allCommands = {
   yarn,
   gatsby,
   netlify,
+  awsAmplify,
 };
 
 export default allCommands;
