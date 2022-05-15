@@ -148,18 +148,40 @@ const command = {
         'Update local repository to the newest commit from remote branch',
     },
     {
+      commandName: 'Fetch remote origin without merge',
+      command: 'git fetch origin',
+      description:
+        'Gets remote origins most up to date commits without merging',
+    },
+    {
+      commandName: 'rebases the current branch on the latest origin master',
+      command: 'git rebase origin/master',
+      description:
+        'takes the current branch and changes the break off point at the latest origin master',
+    },
+    {
+      commandName: 'Finish Git rebase',
+      command: 'git rebase --continue',
+      description:
+        'when in the middle of a rebase. this finishes off the rebase and confirms it.',
+    },
+    {
+      commandName: 'Push Rebase To Remote',
+      command: 'git push --force-with-lease origin HEAD',
+      description:
+        'This Force pushes rebase to remote location without overwritting any work on that branch. will prevent if there is a commit in the way',
+    },
+    {
       commandName: 'Add Remote Repo To Local Project',
       command:
         'git remote add origin ssh://git@github.com/[username]/[repository-name].git',
       description: 'Add a remote repository to local project',
     },
-
     {
       commandName: 'View Changes',
       command: 'git log',
       description: 'View changes',
     },
-
     {
       commandName: 'View Changes',
       command: 'git log --summary',

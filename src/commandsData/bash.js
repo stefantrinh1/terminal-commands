@@ -97,6 +97,12 @@ const command = {
       description:
         'Lists all the folder and file permissions in the current directory',
     },
+
+    {
+      commandName: 'Opens The zshrc File',
+      command: 'open ~/.zshrc',
+      description: 'Opens The zshrc file',
+    },
   ],
 };
 
