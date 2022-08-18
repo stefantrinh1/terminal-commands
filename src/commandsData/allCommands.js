@@ -8,6 +8,7 @@ import yarn from './yarn';
 import gatsby from './gatsby';
 import netlify from './netlify';
 import awsAmplify from './awsAmplify';
+import python from './python'
 
 const allCommands = {
   git,
@@ -20,6 +21,7 @@ const allCommands = {
   gatsby,
   netlify,
   awsAmplify,
+  python
 };
 
 export default allCommands;
