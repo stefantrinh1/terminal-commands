@@ -9,6 +9,8 @@ import gatsby from './gatsby';
 import netlify from './netlify';
 import awsAmplify from './awsAmplify';
 import python from './python'
+import django from './django'
+
 
 const allCommands = {
   git,
@@ -21,7 +23,8 @@ const allCommands = {
   gatsby,
   netlify,
   awsAmplify,
-  python
+  python,
+  django
 };
 
 export default allCommands;
