@@ -1,11 +1,11 @@
-import logo from '../assets/logos/amplifylogo.png';
+import logo from '../assets/logos/awsclilogo.png';
 
 const command = {
-  name: 'awsAmplify',
-  displayName: 'AWS Amplify',
+  name: 'awsCli',
+  displayName: 'AWS CLI',
   logoUrl: logo,
   description:
-    'Aws Amplify is a framework that is used in web and mobile developement that provides useful tools and libraries such as auth, data storage, analytics for backend functionaility',
+    'Aws Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.',
   commands: [
     {
       commandName: 'AWS Configure',
