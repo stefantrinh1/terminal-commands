@@ -100,7 +100,16 @@ const command = {
       command: 'git stash',
       description: 'Delete changes in current branch back to last commit',
     },
-
+    {
+      commandName: 'Reset Head To Last Commit',
+      command: 'git reset --soft HEAD~1',
+      description: 'Reset head to last commit',
+    },
+    {
+      commandName: 'Reset Head To Two Commits Back',
+      command: 'git reset --soft HEAD~2',
+      description: 'Reset head to two commits back',
+    },
     {
       commandName: 'List Git Configurations',
       command: 'git config --list',
