@@ -154,13 +154,13 @@ const command = {
         'Gets remote origins most up to date commits without merging',
     },
     {
-      commandName: 'rebases the current branch on the latest origin master',
-      command: 'git rebase origin/master',
+      commandName: 'rebases the current branch on the latest origin main',
+      command: 'git rebase origin/main',
       description:
-        'takes the current branch and changes the break off point at the latest origin master',
+        'takes the current branch and changes the break off point at the latest origin main',
     },
     {
-      commandName: 'Finish Git rebase',
+      commandName: 'Continue Git rebase',
       command: 'git rebase --continue',
       description:
         'when in the middle of a rebase. this finishes off the rebase and confirms it.',
@@ -171,6 +171,13 @@ const command = {
       description:
         'This Force pushes rebase to remote location without overwritting any work on that branch. will prevent if there is a commit in the way',
     },
+    {
+      commandName: 'Abort Rebase',
+      command: 'git rebase --abort',
+      description:
+        'This aborts the rebase process and returns the branch to its original state',
+    },
+
     {
       commandName: 'Add Remote Repo To Local Project',
       command:

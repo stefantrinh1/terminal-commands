@@ -30,6 +30,12 @@ const command = {
     },
 
     {
+      commandName: 'Update Brew Package',
+      command: 'brew upgrade packagename',
+      description: 'Updates a specific package installed by Brew',
+    },
+
+    {
       commandName: 'Hold package Upgrades',
       command: 'brew pin packagename',
       description: 'Prevents that package from being updated',

@@ -123,6 +123,46 @@ const command = {
       command: 'unset VARIABLE_NAME',
       description: 'Removes a global environment variable from the system',
     },
+    {
+      commandName: 'Copy File To Another Directory',
+      command: 'cp filename /path/to/directory',
+      description: 'Copy a file to another directory',
+    },
+    {
+      commandName: 'Move File To Another Directory',
+      command: 'mv filename /path/to/directory',
+      description: 'Move a file to another directory',
+    },
+    {
+      commandName: 'Open Vim Editor',
+      command: 'vim filename',
+      description: 'Open a file in vim editor',
+    },
+    {
+      commandName: 'Open File In VS Code',
+      command: 'code filename',
+      description: 'Open a file in Visual Studio Code',
+    },
+    {
+      commandName: 'Change File Permissions',
+      command: 'chmod ug+x filename',
+      description:
+        'Change file permissions, u stands for "user" or owner. g stands for "group." +x means adding execute permission.',
+    },
+    {
+      commandName: 'Change File Owner',
+      command: 'chown newOwner filename',
+      description: 'Change file owner to newOwner',
+    },
+    {
+      commandName: 'Print Message',
+      command: 'echo "Hello World"',
+      description: 'Prints the message to the terminal',
+    },
+    {
+      commandName: 'Make Request To Server',
+      command: 'curl https://dog.ceo/api/breeds/list/all',
+    },
   ],
 };
 
