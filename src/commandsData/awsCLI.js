@@ -24,6 +24,26 @@ const command = {
       command: 'open ~/.aws/credentials',
       description: 'Opens the AWS credentials file in your default text editor',
     },
+    {
+      commandName: 'Switch AWS Profile',
+      command: 'export AWS_PROFILE=profileName',
+      description: 'Switches the AWS profile to the specified profile name',
+    },
+    {
+      commandName: 'Reverse AWS Profile',
+      command: 'export AWS_PROFILE=default',
+      description: 'Switches the AWS profile to the default profile',
+    },
+    {
+      commandName: 'List Profiles',
+      command: 'aws configure list-profiles',
+      description: 'Lists all the profiles configured in the AWS CLI',
+    },
+    {
+      commandName: 'List Configured Profile Stats',
+      command: 'aws configure list',
+      description: 'Lists the configured profile stats',
+    },
   ],
 };
 
