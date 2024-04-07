@@ -11,6 +11,7 @@ import awsAmplify from './awsAmplify';
 import python from './python';
 import django from './django';
 import awsCLI from './awsCLI';
+import vim from './vim';
 
 const allCommands = {
   git,
@@ -26,6 +27,7 @@ const allCommands = {
   python,
   django,
   awsCLI,
+  vim,
 };
 
 export default allCommands;
