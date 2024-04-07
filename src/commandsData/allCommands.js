@@ -12,6 +12,7 @@ import python from './python';
 import django from './django';
 import awsCLI from './awsCLI';
 import vim from './vim';
+import terraform from './terraform';
 
 const allCommands = {
   git,
@@ -28,6 +29,7 @@ const allCommands = {
   django,
   awsCLI,
   vim,
+  terraform,
 };
 
 export default allCommands;
