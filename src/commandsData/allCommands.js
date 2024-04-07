@@ -8,9 +8,9 @@ import yarn from './yarn';
 import gatsby from './gatsby';
 import netlify from './netlify';
 import awsAmplify from './awsAmplify';
-import python from './python'
-import django from './django'
-
+import python from './python';
+import django from './django';
+import awsCLI from './awsCLI';
 
 const allCommands = {
   git,
@@ -24,7 +24,8 @@ const allCommands = {
   netlify,
   awsAmplify,
   python,
-  django
+  django,
+  awsCLI,
 };
 
 export default allCommands;

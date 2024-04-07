@@ -103,6 +103,26 @@ const command = {
       command: 'open ~/.zshrc',
       description: 'Opens The zshrc file',
     },
+    {
+      commandName: 'Opens Folder In Explorer',
+      command: 'open /config/folderName',
+      description: 'Opens Folder in Explorer given the path',
+    },
+    {
+      commandName: 'List Environment Variables',
+      command: 'export',
+      description: 'Lists all the environment variables in the system',
+    },
+    {
+      commandName: 'Add Global ENV Variable',
+      command: 'export VARIABLE_NAME=value',
+      description: 'Adds a global environment variable to the system',
+    },
+    {
+      commandName: 'Unset Global ENV Variable',
+      command: 'unset VARIABLE_NAME',
+      description: 'Removes a global environment variable from the system',
+    },
   ],
 };
 
