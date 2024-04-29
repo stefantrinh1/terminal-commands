@@ -1,4 +1,4 @@
-import logo from '../assets/logos/terraformlogo.png';
+import logo from '../assets/logos/terraformlogo.png'
 
 const command = {
   name: 'terraform',
@@ -84,12 +84,18 @@ const command = {
       description:
         'The terraform workspace command is used to manage workspaces in Terraform. Workspaces allow you to manage multiple states for a single configuration.',
     },
+    {
+      commandName: 'Terraform Format',
+      command: 'terraform fmt',
+      description:
+        'The terraform fmt command is used to rewrite Terraform configuration files to a canonical format and style.',
+    },
     // {
     //   commandName: '',
     //   command: '',
     //   description: '',
     // },
   ],
-};
+}
 
-export default command;
+export default command
