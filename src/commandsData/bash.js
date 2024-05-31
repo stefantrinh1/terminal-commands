@@ -1,4 +1,4 @@
-import logo from '../assets/logos/bashlogo.png';
+import logo from '../assets/logos/bashlogo.png'
 
 const command = {
   name: 'bash',
@@ -162,8 +162,26 @@ const command = {
     {
       commandName: 'Make Request To Server',
       command: 'curl https://dog.ceo/api/breeds/list/all',
+      description: 'Make a request to a server',
+    },
+    {
+      commandName: 'Show History',
+      command: 'history',
+      description: 'Shows the history of commands used in the terminal',
+    },
+
+    {
+      commandName: 'Clear Terminal',
+      command: 'clear',
+      description: 'Clears the terminal screen',
+    },
+
+    {
+      commandName: 'Connect By SSH To Server',
+      command: 'ssh -i ./private_key root@111.111.111.111',
+      description: 'Connect to a server by SSH using a private key and IP',
     },
   ],
-};
+}
 
-export default command;
+export default command
